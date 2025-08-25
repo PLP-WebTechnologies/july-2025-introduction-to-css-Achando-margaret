@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CSS Styling Assignment</h1>
+            <p>Mastering the fundamentals of CSS and the Box Model</p>
+        </header>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <article>
+                <h2>Understanding CSS and the Box Model</h2>
+                <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML. CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+                
+                <div class="box-model-demo">
+                    <h3>CSS Box Model Demonstration</h3>
+                    <p>Every element in web design is a rectangular box. The CSS box model describes the rectangular boxes generated for elements and consists of:</p>
+                    <ul>
+                        <li><strong>Content</strong>: The actual content of the box</li>
+                        <li><strong>Padding</strong>: Clears an area around the content</li>
+                        <li><strong>Border</strong>: A border that goes around the padding and content</li>
+                        <li><strong>Margin</strong>: Clears an area outside the border</li>
+                    </ul>
+                    
+                    <div class="box-content">
+                        This is the content area with padding, border, and margin applied.
+                    </div>
+                </div>
+                
+                <p>Understanding the box model is crucial for creating layouts with CSS and for aligning elements on a web page. By default, the width and height properties of an element are calculated like this:</p>
+                <p><strong>Total element width</strong> = width + left padding + right padding + left border + right border + left margin + right margin</p>
+                <p><strong>Total element height</strong> = height + top padding + bottom padding + top border + bottom border + top margin + bottom margin</p>
+            </article>
+            
+            <aside>
+                <h2>CSS Properties</h2>
+                
+                <div class="card">
+                    <h3>Text Styling</h3>
+                    <p>CSS provides properties to style text, including font-family, font-size, color, line-height, and text-align.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                
+                <div class="card">
+                    <h3>Box Model</h3>
+                    <p>The box model is a fundamental concept in CSS that consists of content, padding, border, and margin.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                
+                <div class="card">
+                    <h3>Layout Techniques</h3>
+                    <p>Modern CSS offers various layout techniques including Flexbox and Grid for creating responsive designs.</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </aside>
+        </main>
+        
+        <footer>
+            <p>CSS Styling Assignment &copy; 2023 | Demonstrating CSS Fundamentals and Box Model</p>
+        </footer>
+    </div>
+</body>
+</html>
